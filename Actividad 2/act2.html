@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+<BR>
+    <h1>Vitaminas Argentinas(STORE)</h1> </BR></BR></BR>
+    
+    <table style="font-size: small" class="table table-bordered">
+        <th>Nombre del producto</th>
+        <th>Informacion tecnica</th>
+        <th>Caracteristicas</th>
+        <th>Beneficios y recomendaciones</th>
+
+        <tr>
+            <td>Vitamina A</td>
+            <td><ul>
+                <li>Es una vitamina liposoluble esencial para el funcionamiento adecuado del organismo.</li>
+              </ul></td>
+            <td><ul>
+                <li>Liposoluble</li>
+                <li>Retinoides y carotenoides</li>
+                <li>Importancia para la salud de la piel</li>
+              </ul></td>
+            <td><ul>
+                <li>Proporciona una amplia gama de beneficios para la salud como visión saludable, sistema inmunológico fortalecido, Salud de la piel y tejidos, etc</li>
+                <li>Las recomendaciones de ingesta de vitamina A varían según la edad, el sexo y las necesidades individuales. Las ingestas dietéticas de referencia (IDR) para adultos se expresan en microgramos de actividad de retinol equivalente (RAE) por día</li>
+              </ul></td>
+        </tr>
+
+        <tr>
+            <td>Vitamina C</td>
+            <td><ul>
+                <li>También conocida como ácido ascórbico, es una vitamina hidrosoluble esencial para el funcionamiento adecuado del organismo.</li>
+              </ul></td>
+            <td><ul>
+                <li>Hidrosoluble</li>
+                <li>Antioxidante</li>
+                <li>Síntesis de colágeno</li>
+              </ul></td>
+            <td><ul>
+                <li>Las frutas y verduras son exelentes fuentes de vitamina C la cual nos brinda función antioxidante, síntesis de colágeno, absorción de hierro y salud cardiovascular</li>
+                <li>Las recomendaciones son que La ingesta diaria recomendada (IDR) de vitamina C para adultos es de aproximadamente 75-90 mg para mujeres y 90 mg para hombres.
+                    Durante el embarazo y la lactancia, las necesidades de vitamina C pueden ser mayores, y se recomienda consultar con un profesional de la salud para obtener recomendaciones específicas.</li>
+              </ul></td>
+        </tr>
+
+        <tr>
+            <td>Vitamina D</td>
+            <td><ul>
+                <li>Es una vitamina liposoluble esencial para el organismo ya que puede ser sintetizada por el cuerpo humano cuando la piel se expone a la luz solar ultravioleta B (UVB).</li>
+              </ul></td>
+            <td><ul>
+                <li>Vitamina liposoluble</li>
+                <li>Precursor hormonal</li>
+                <li>Regulación del metabolismo del calcio y del fósforo</li>
+              </ul></td>
+            <td><ul>
+                <li>Ofrece una serie de beneficios para la salud y se considera esencial para el funcionamiento adecuado del organismo como la salud ósea, fortalecimiento muscular, sistema inmunológico, salud cardiovascular y salud mental.</li>
+                <li>Una de las recomendaciones para obtener vitamina D es bajo la exposicion solar ya que estos rayos UVB son ricos en esta vitamina.</li>
+              </ul></td>
+        </tr>
+
+        <tr>
+            <td>Vitamina K</td>
+            <td><ul>
+                <li>Es una vitamina liposoluble que desempeña un papel esencial en la coagulación sanguínea y en la salud ósea.</li>
+              </ul></td>
+            <td><ul>
+                <li>Vitamina liposoluble</li>
+                <li>Coagulación sanguínea</li>
+                <li>Metabolismo del calcio</li>
+              </ul></td>
+            <td><ul>
+                <li>Ofrece una serie de beneficios para la salud y es esencial para el funcionamiento adecuado del organismo como la coagulación sanguínea, salud ósea, salud cardiovascular y salud cerebral</li>
+                <li>La recomendacion para la ingesta en adultos es de aproximadamente 90-120 microgramos al día. Su principal fuentes obtencion es de alimentos de origen vegetal como verduras de hoja verde.</li>
+              </ul></td>
+        </tr>
+    </table>
+        <br><br><br>
+    <form class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <select id="estado-civil" name="estado-civil">
+          <option value="Mujer">Hombre</option>
+          <option value="hombre">Mujer</option>
+          <option value="otro">Otro</option>
+        </select>
+        <br>
+        <label>
+          <input type="checkbox" name="newsletter" value="si">
+          Deseo recibir notificaciones.
+        </label>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>
