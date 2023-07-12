@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://www.onlygfx.com/wp-content/uploads/2021/04/white-triangle-pattern-seamless-background-3-cover.jpg);
+    font-family: OCR A Std, monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+.boxcarrera {
+    padding: 0.3cm;
+    width: 400px; 
+    height: 400px;
+    display: inline-block; 
+    margin-right: 40px;
+    background-color: rgb(129, 122, 122);
+    border-radius: 1cm;
+    background-blend-mode:color;
+}
+
+button {
+    font-size:xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+}
