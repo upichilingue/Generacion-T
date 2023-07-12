@@ -1,0 +1,55 @@
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    margin: 20px;
+    border: 3px solid rgb(4, 49, 117);
+    padding: 5px;
+    
+}
+
+.col{
+    border: 3px solid rgb(128, 19, 0);
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+body{
+    background-color: black;
+  }
+.card-text{
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-title{
+    font-family:  'Poppins', sans-serif;
+}
+
+.insta{
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    font-family:  'Poppins', sans-serif;
+    padding-top: 50px;
+}
+.insto{
+    margin: 10px;
+    font-family:  'Poppins', sans-serif;
+}
+.btn-dark{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family:  'Poppins', sans-serif;
+
+}
+.form-label{
+    padding-top: 10px;
+}
+.kylo{
+    background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2019/08/hipertextual-asi-era-diseno-original-kylo-ren-star-wars-despertar-fuerza-2019807231.jpg?fit=1920%2C1451&ssl=1%22);
+    background-size: cover; 
+}
